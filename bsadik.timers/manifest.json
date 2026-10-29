@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bsadik.timers",
+  "name": "Timers",
+  "version": "1.0.0",
+  "author": "bsadik",
+  "description": "Named timers, alarms and stopwatches with a phone-style ringing alarm",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Timers",
+    "description": "Timers, alarms and stopwatches",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
